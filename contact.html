@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+    <h1>contact details</h1>
+    <p>Email : sai@gmail.com</p>
+    <p>place: hyderabad</p>
+    <hr>
+    <form  action="mailto:sai@gmail.com" method="post" enctype="text/plain">
+        <lable>User name :</lable>
+        <input type="text" name="username" value="" required><br>
+
+        <lable>email id :</lable>
+        <input type="email" name="email" required><br>
+
+        <lable>password :</lable>
+        <input type="password" name="password" value="" required><br>
+
+        <lable>date of birth :</lable>
+        <input type="date" name="date" required><br>
+
+        <lable>add a file</lable>
+        <input type="file"><br>
+
+        <lable>gender :</lable>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other.<br>
+
+        <label for="qualification"> Select you qualification</label>
+        <select name="qualification">
+            <option value="none" selected>none</option>
+            <option value="B.tech">b.tech</option>
+            <option value="ssc">SSC</option>
+            <option value="other">other</option>
+        </select><br>
+
+        <lable>time of birth :</lable>
+        <input type="time"><br>
+
+        <lable>Enter description :</lable>
+        <textarea name="description" rows="3" cols="100"></textarea><br>
+
+        <lable> accept all Terms and conditions</lable>
+        <input type="checkbox"><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
